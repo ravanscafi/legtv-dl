@@ -1,13 +1,13 @@
-var fs = require('fs'),
-    rarfile = require('rarfile'),
-    glob = require('glob'),
-    q = require('q'),
-    Utils = module.exports;
+var fs = require('fs');
+var rarfile = require('rarfile');
+var glob = require('glob');
+var q = require('q');
+var Utils = module.exports;
 require('colors');
 
 Utils.fileList = function (path) {
-    var def = q.defer(),
-        globFiles = path + '/**/*.@(mp4|mkv|avi|mpg|mpeg|ogg|rmvb|wmv|mov|srt)';
+    var def = q.defer();
+    var globFiles = path + '/**/*.@(mp4|mkv|avi|mpg|mpeg|ogg|rmvb|wmv|mov|srt)';
 
     glob(globFiles, function (error, files) {
         var filtered = Utils.filterFileList(files);
@@ -22,18 +22,19 @@ Utils.fileList = function (path) {
 };
 
 Utils.unrar = function (rarFile, targetName, fileList) {
+    //TODO fix folder inside rar breaking everything
+
     console.log('Extraindo %s'.green, targetName);
 
     var rf = new rarfile.RarFile(rarFile).on('ready', function (rf) {
-        var files = rf.names,
-            path = Utils.targetFolder(targetName, fileList);
+        var files = rf.names;
+        var path = Utils.targetFolder(targetName, fileList);
 
         files.forEach(function (file) {
             if (!/\.srt$/i.test(file) || /__MACOSX/i.test(file))
                 return;
 
             file = file.replace(/^.*\\/g, "");
-
 
             var outfile = fs.createWriteStream(path + file);
             rf.pipe(file, outfile);
@@ -42,10 +43,10 @@ Utils.unrar = function (rarFile, targetName, fileList) {
 };
 
 Utils.filterDownloadList = function (body, name) {
-    var pattern = new RegExp('(/download/\\w+/[\\w\\.%_-]+/' + name + '[\\w\\.%_-]+?)".+?(\\d+)\\sdownloads', 'gi'),
-        match,
-        downloads = 0,
-        url = '';
+    var pattern = new RegExp('(/download/\\w+/[\\w\\.%_-]+/' + name + '[\\w\\.%_-]+?)".+?(\\d+)\\sdownloads', 'gi');
+    var match;
+    var downloads = 0;
+    var url = '';
 
     while (match = pattern.exec(body)) {
         if (match[2] > downloads) {
@@ -59,7 +60,6 @@ Utils.filterDownloadList = function (body, name) {
 Utils.getEpisodeName = function (name) {
     return name.replace(/\s/g, '.');
 };
-
 
 Utils.compareWithoutFileExtension = function (file1, file2) {
     file1 = file1.replace(/\.(\w+)$/, '');
@@ -92,7 +92,6 @@ Utils.identifyTvShows = function (files) {
 };
 
 Utils.filterFileList = function (files) {
-
     var filtered = [];
 
     files.forEach(function (file) {
@@ -109,9 +108,10 @@ Utils.filterFileList = function (files) {
 };
 
 Utils.targetFolder = function (file, list) {
-    var regex = new RegExp(module.exports.getEpisodeName(file), 'i'),
-        match = './';
+    var regex = new RegExp(module.exports.getEpisodeName(file), 'i');
+    var match = './';
 
+    //TODO improve performance (forEach run for all elements even if matched)
     list.forEach(function (el) {
         if (regex.test(el)) {
             match = el.replace(/\/[^\/]+$/, '/');

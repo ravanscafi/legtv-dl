@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68a86c43-27f0-40f3-92f2-976693cf800d" name="Default" comment="" />
+    <list default="true" id="68a86c43-27f0-40f3-92f2-976693cf800d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/legtv-dl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/single.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rar.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/teste2.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/legtv.js" afterPath="$PROJECT_DIR$/src/legtv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/utils.js" afterPath="$PROJECT_DIR$/src/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.sample.js" afterPath="$PROJECT_DIR$/config.sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="legtv-dl.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils.js">
+      <file leaf-file-name="indexv2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/indexv2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.6022725" vertical-offset="0" max-vertical-offset="3175">
-              <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+            <state vertical-scroll-proportion="-1.4295677" vertical-offset="1025" max-vertical-offset="1742">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,29 +55,42 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rar.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config.sample.js" />
-        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/teste.js" />
-        <option value="$PROJECT_DIR$/teste2.js" />
         <option value="$PROJECT_DIR$/legtv.js" />
         <option value="$PROJECT_DIR$/utils.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/config.sample.js" />
+        <option value="$PROJECT_DIR$/teste2.js" />
+        <option value="$PROJECT_DIR$/src/legtvdl.js" />
+        <option value="$PROJECT_DIR$/rar.js" />
+        <option value="$PROJECT_DIR$/src/legtv.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/utils.js" />
+        <option value="$PROJECT_DIR$/src/indexv2.js" />
+        <option value="$PROJECT_DIR$/single.js" />
+        <option value="$PROJECT_DIR$/teste.js" />
+        <option value="$PROJECT_DIR$/src/single.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="23" />
+    <option name="width" value="1364" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -115,7 +147,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -126,7 +158,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -138,6 +170,34 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="legtv-dl">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="legtv-dl">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="legtvdl" />
+              <option name="myItemId" value="legtv-dl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -162,85 +222,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="legtvdl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="legtv-dl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="legtvdl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rarfile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="legtv-dl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="legtvdl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rarfile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="options.lastSelected" value="configurable.group.project" />
+    <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\code\legtv-dl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\code\desafio" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
-    <configuration default="false" name="teste.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/teste.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="teste2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/teste2.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
-    <configuration default="false" name="teste2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="$PROJECT_DIR$/teste2.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="teste.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="teste.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
       <method />
@@ -268,32 +290,42 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
       <RunnerSettings RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="Basic" />
       <method />
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.teste.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.teste2.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.teste2.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.teste.js" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.teste2.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.teste.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.teste.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.teste2.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="68a86c43-27f0-40f3-92f2-976693cf800d" name="Default" comment="" />
@@ -304,28 +336,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1364" height="739" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3196347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31849793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -349,574 +381,334 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/teste2.js">
+    <entry file="file://$PROJECT_DIR$/src/single.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="1170">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
-            <marker date="1420941846767" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teste.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1350">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15243903" vertical-offset="0" max-vertical-offset="656">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.sample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22727273" vertical-offset="0" max-vertical-offset="440">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teste.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8292683" vertical-offset="694" max-vertical-offset="1350">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/q/q.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27578476" vertical-offset="2577" max-vertical-offset="48575">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="109" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
           <folding>
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{&quot;next&quot;: null...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Constructs a promise for an immediate reference, passes promises through, or ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Performs a task in a future turn of the event loop. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Controls whether or not long stack traces will be on ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Constructs a {promise, resolve, reject} object. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Creates a Node-style callback that will resolve or reject the deferred ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** @param resolver {Function} a function that returns nothing and accepts ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** If two promises eventually fulfill to the same value, promises that value, ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Returns a promise for the first of an array of promises to become settled. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Constructs a Promise with a promise descriptor object and optional fallback ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Works almost like &quot;finally&quot;, but not called for rejections. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Registers an observer on a promise. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** If an object is not a promise, it is as &quot;near&quot; as possible. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** @returns whether the given object is a promise. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** @returns whether the given object is a pending promise, meaning not ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** @returns whether the given object is a value or fulfilled ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** @returns whether the given object is a rejected promise. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Constructs a rejected promise. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Constructs a fulfilled promise for an immediate reference. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Converts thenables to Q promises. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Annotates an object such that it will never be ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Spreads the values of a promised array of arguments into the ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** The async function is a decorator for generator functions, turning ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** The spawn function is a small wrapper around async that immediately ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Throws a ReturnValue exception to stop an asynchronous generator. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** The promised function decorator ensures that any promise arguments ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** sends a message to a value in a future turn ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Gets the value of a property in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Sets the value of a property in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Deletes a property in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Invokes a method in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Invokes a method in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Applies the promised function in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Calls the promised function in a future turn. ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Binds the promised function, transforming return values into a fulfilled ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Requests the names of the owned properties of a promised ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Turns an array of promises into a promise for an array.  If any of ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Waits for all promises to be settled, either fulfilled or ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** @see Promise#allSettled ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Turns an array of promises into a promise for an array of their states (as ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Captures the failure of a promise, giving an oportunity to recover ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Attaches a listener that can respond to progress notifications from a ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Provides an opportunity to observe the settling of a promise, ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Terminates a chain of promises, forcing rejections to be ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Causes a promise to be rejected if it does not get fulfilled before ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Returns a promise for the given value (or promised value), some ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Passes a continuation to a Node function, which is called with the given ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Passes a continuation to a Node function, which is called with the given ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Wraps a NodeJS continuation passing function and returns an equivalent ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Calls a method of a Node-style object that accepts a Node-style ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** Calls a method of a Node-style object that accepts a Node-style ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="/** If a function would like to support both Node continuation-passing-style and ...*/" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420862115920" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teste2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16816144" vertical-offset="0" max-vertical-offset="446">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <marker date="1420941846767" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72869956" vertical-offset="0" max-vertical-offset="600">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <marker date="1420942529119" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;legtv-dl&quot;...}" />
-            <marker date="1420942529119" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1420942529119" expanded="true" signature="-1:-1" placeholder="{&quot;request&quot;: &quot;~2.51.0&quot;...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19054878" vertical-offset="0" max-vertical-offset="656">
+        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="275">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1905">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/q/q.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7913769" vertical-offset="47856" max-vertical-offset="48575">
+          <caret line="1937" column="0" selection-start-line="1937" selection-start-column="0" selection-end-line="1937" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/legtv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33240613" vertical-offset="775" max-vertical-offset="3302">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="/** Classe LegTV. ...*/" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{&quot;Host&quot;: 'legendas.tv'...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="/** Download subtitle URL. ...*/" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="/** Search for given subject ...*/" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="/** Perform login at Legenda ...*/" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{&quot;Content-Type&quot;: 'application/x-www-form-urlencoded'...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="/** @param username ...*/" />
+            <marker date="1426315285000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4047288" vertical-offset="359" max-vertical-offset="3302">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355690000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.036161337" vertical-offset="0" max-vertical-offset="719">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <marker date="1426306044000" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: ''...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18080668" vertical-offset="0" max-vertical-offset="719">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
-            <marker date="1420861671983" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: 'r0c1nh4'...}" />
+            <marker date="1426306044000" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: 'r0c1nh4'...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/legtv.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7197309" vertical-offset="154" max-vertical-offset="3075">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5267728" vertical-offset="0" max-vertical-offset="691">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{&quot;Content-Type&quot;: 'application/x-www-form-urlencoded'...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1420942774014" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426305746000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;legtv-dl&quot;...}" />
+            <marker date="1426305746000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
+            <marker date="1426305746000" expanded="true" signature="-1:-1" placeholder="{&quot;request&quot;: &quot;~2.51.0&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.6022725" vertical-offset="0" max-vertical-offset="3175">
-          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.33286119" vertical-offset="7435" max-vertical-offset="9542">
+          <caret line="295" column="4" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+          <folding>
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Loads a module. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Use the internal &lt;i&gt;&lt;code&gt;require()&lt;/code&gt;&lt;/i&gt; machinery to look up the location of a module, ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Modules are cached in this object when they are required.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Module object of a file that is run directly from Node. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Instruct &lt;i&gt;&lt;code&gt;require&lt;/code&gt;&lt;/i&gt; on how to handle certain file extensions. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An object which is shared between all instances of the current module and made accessible ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The process object. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{&quot;execPath&quot;: ''...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Adds the specified listener to receive events of the given type. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A writable stream to stdout. &lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A writable stream to stderr. &lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A Readable Stream for stdin.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An array containing the command line arguments.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** This is the absolute pathname of the executable that started the process. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** This causes node to emit an abort. This will cause node to exit and generate a core file. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Changes the current working directory of the process or throws an exception if that fails. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Returns the current working directory of the process. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An object containing the user environment. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Ends the process with the specified &lt;i&gt;&lt;code&gt;code&lt;/code&gt;&lt;/i&gt;. If omitted, exit uses the 'success' code 0. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Gets the group identity of the process.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Sets the group identity of the process.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Gets the user identity of the process.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Sets the user identity of the process.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A compiled-in property that exposes &lt;i&gt;&lt;code&gt;NODE_VERSION&lt;/code&gt;&lt;/i&gt;. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An Object containing the JavaScript representation of the configure options that were used to compile ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A compiled-in property that exposes &lt;i&gt;&lt;code&gt;NODE_PREFIX&lt;/code&gt;&lt;/i&gt;. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Send a signal to a process.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The PID of the process. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Getter/setter to set what is displayed in 'ps'. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** What processor architecture you're running on: 'arm', 'ia32', or 'x64'. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** What platform you're running on. 'linux2', 'darwin', etc. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Returns an object describing the memory usage of the Node process measured in bytes. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** On the next loop around the event loop call this callback.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Sets or reads the process's file mode creation mask.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** @returns {Number} Number of seconds Node has been running. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Returns the current high-resolution real time in a [seconds, nanoseconds] tuple Array. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** @returns {Object} stdin of the process ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The filename of the code being executed.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The name of the directory that the currently executing script resides in. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A reference to the current module.&lt;p/&gt; ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{&quot;id&quot;: '{module identifier}'...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The &lt;i&gt;&lt;code&gt;exports&lt;/code&gt;&lt;/i&gt; object is created by the Module system. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Provides a way to load a module as if &lt;i&gt;&lt;code&gt;require()&lt;/code&gt;&lt;/i&gt; was called from the original module. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The identifier for the module. Typically this is the fully resolved filename. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The fully resolved filename to the module. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Whether or not the module is done loading, or is in the process of loading. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The module that required this one. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The module objects required by this one. ...*/" />
+            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The global namespace object.&lt;p/&gt; ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36262202" vertical-offset="0" max-vertical-offset="1144">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426366487000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426355124000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indexv2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4295677" vertical-offset="1025" max-vertical-offset="1742">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
