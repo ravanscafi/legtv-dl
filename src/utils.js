@@ -159,7 +159,7 @@ Utils.identifyTvShows = function (files) {
  */
 Utils.filterFileList = function (files) {
     var filtered = [];
-
+    //TODO improve it so we can keep track of which file represents which tv show name
     files.forEach(function (file) {
         if (/\.srt$/.test(file)) {
             if (filtered.length && Utils.compareWithoutFileExtension(file, filtered[filtered.length - 1])) {

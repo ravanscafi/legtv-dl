@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a86c43-27f0-40f3-92f2-976693cf800d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/indexv2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/single.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/legtv.js" afterPath="$PROJECT_DIR$/src/legtv.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils.js" afterPath="$PROJECT_DIR$/src/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,6 +25,20 @@
   <component name="FavoritesManager">
     <favorites_list name="legtv-dl" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.73221755" vertical-offset="3895" max-vertical-offset="5356">
+              <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,9 +59,9 @@
         <option value="$PROJECT_DIR$/src/legtv2.js" />
         <option value="$PROJECT_DIR$/src/indexv2.js" />
         <option value="$PROJECT_DIR$/teste2.js" />
-        <option value="$PROJECT_DIR$/src/utils.js" />
         <option value="$PROJECT_DIR$/src/legtv.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/utils.js" />
       </list>
     </option>
   </component>
@@ -153,6 +163,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="legtv-dl">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="legtv-dl">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -306,7 +330,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1364" height="739" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -314,7 +338,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31849793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -378,42 +402,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1905">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -429,42 +418,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -583,25 +537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3417015" vertical-offset="0" max-vertical-offset="1586">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/legtv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4134">
+        <state vertical-scroll-proportion="-4.3210225" vertical-offset="3042" max-vertical-offset="4134">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Classe LegTV. ...*/" />
@@ -636,46 +574,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32635984" vertical-offset="78" max-vertical-offset="1586">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5356">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426396286000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.73221755" vertical-offset="3895" max-vertical-offset="5356">
+          <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
