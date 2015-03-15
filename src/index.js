@@ -1,16 +1,16 @@
-(function () {
-    'use strict';
+var config = require(__dirname + '/../config');
+var utils = require(__dirname + '/utils');
+var legtv = require(__dirname + '/legtv').create(config.username, config.password, config.proxy);
+var q = require('q');
+var path = config.seriesPath;
 
-    var config = require(__dirname + '/../config');
-    var utils = require(__dirname + '/utils');
-    var legtv = require(__dirname + '/legtv').create(config.username, config.password, config.proxy);
-    var q = require('q');
+require('colors');
+
+function run() {
     var def = q.defer();
-    require('colors');
 
     console.log('Legendas.TV Downloader\nBy Ravan Scafi\n'.blue);
-
-    utils.fileList(config.seriesPath)
+    utils.fileList(path)
         .then(function (response) {
             var fileList = response.fileList;
             var subjects = response.subjects;
@@ -18,28 +18,39 @@
 
             if (!len) {
                 console.log('Nenhum episódio sem legenda.\nÓtimo!'.green);
-                def.resolve(true);
+                return def.resolve(true);
             }
 
-            console.log('%d episódio(s) sem legenda.'.yellow, len);
-            legtv.login().then(function () {
+            console.log('%d episódio%s sem legenda.'.yellow, len, len > 1 ? 's' : '');
+            legtv.login()
+                .then(function () {
+                    var queue = [];
 
-                subjects.forEach(function (subject) {
-                    var tmpFile = config.seriesPath + '/tmp/' + subject + '.rar';
-
-                    legtv.search(subject)
-                        .then(function (response) {
-                            var downloadUrl = response.downloadUrl;
-                            var name = response.name;
-                            return legtv.download(downloadUrl, tmpFile, name, fileList);
-                        })
-                        .then(function () {
-                            //TODO fix folder inside rar breaking everything
-                            return utils.unrar(tmpFile, name, fileList);
+                    subjects.forEach(function (subject) {
+                        queue.push(function () {
+                            return fetchSubtitle(path, subject, fileList);
                         });
+                    });
+
+                    func = queue.pop();
+                    queue.reduce(q.when, func());
                 });
-            });
         });
 
     return def.promise;
-})();
+}
+
+function fetchSubtitle(path, subject, fileList) {
+    var tmpFile = path + '/tmp/' + subject + '.rar';
+    var def = q.defer();
+
+    legtv.search({subject: subject, file: tmpFile, fileList: fileList})
+        .then(legtv.download)
+        .then(utils.extract)
+        .then(def.resolve)
+        .done();
+
+    return def.promise;
+}
+
+run();
