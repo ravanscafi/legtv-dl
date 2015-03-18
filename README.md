@@ -1,12 +1,36 @@
 # Legendas.tv Downloader
+## English
+Automagically download all missing subtitles for your tv shows from brazilian source [legendas.tv](http://legendas.tv).
 
-Automagically download all missing subtitles for your tv shows.
+---
 
-# Installation
+## Português
+Automagicamente baixe todas as legendas ausentes para suas séries de tv.
 
-It depends on [**unrar**](http://www.rarlab.com/rar_add.htm) free tool. `unrar` must be available from command line.
+Não se esqueça de valorizar o ótimo trabalho do legenders deixando comentários no site e fazendo doações!
 
-1. Clone this repo
-1. `npm install`
-1. Create a `config.js` from `config.sample.js`
-1. Run with `node .`
+# Dependências
+
+É necessário ter a ferramenta [**unrar**](http://www.rarlab.com/rar_add.htm).
+`unrar` deve estar disponível no seu path.
+
+Você pode instalar no Ubuntu utilizando o comando:
+```
+sudo apt-get install unrar
+```
+
+No OS X, você pode utilizar [Homebrew](http://brew.sh/) e instalar com o comando:
+```
+brew install unrar
+```
+
+No Windows, você provavalmente precisa baixar [daqui](http://www.rarlab.com/rar_add.htm), instalar/extrair ou sei lá, e colocar o caminho no seu path.
+
+# Instalação
+
+1. Clone esse repositório.
+1. Entre na pasta com `cd legtv-dl`.
+1. Rode `npm install` (Você vai precisar do [NodeJS e NPM](https://nodejs.org/))).
+1. Crie um arquivo `config.js` a partir do `config.sample.js` e o configure corretamente. (Você vai precisar de uma conta no [legendas.tv](http://legendas.tv))
+1. Rode `node .`
+1. É isso! Que tal aproveitar o tempo economizado e elogiar os legenders?
