@@ -2,7 +2,7 @@
     'use strict';
     var config = require(__dirname + '/../config');
     var utils = require(__dirname + '/utils');
-    var legtv = require(__dirname + '/legtv').create(config.username, config.password, config.proxy);
+    var legtv = require(__dirname + '/legtv').create(config.username, config.password);
     var q = require('q');
     var path = config.seriesPath;
 

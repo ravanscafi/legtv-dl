@@ -10,12 +10,10 @@ require('colors');
  * @constructor
  * @param username
  * @param password
- * @param proxy
  */
-function LegTV(username, password, proxy) {
+function LegTV(username, password) {
     this.username = username;
     this.password = password;
-    this.proxy = proxy || false;
 }
 
 request = request.defaults({
