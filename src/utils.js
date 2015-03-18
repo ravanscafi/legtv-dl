@@ -36,7 +36,6 @@ Utils.extract = function (parameters) {
 
     console.log('Extraindo %s.'.green, parameters.subject);
 
-    // don't remove 'var rf', somehow it breaks the logic.
     new rarfile.RarFile(file).on('ready', function (rf) {
         var files = rf.names;
         var response = Utils.targetFolder(subject, subjectList, originalFiles);
