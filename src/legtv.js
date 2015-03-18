@@ -35,12 +35,15 @@ request = request.defaults({
  * @returns {Deferred.promise}
  */
 LegTV.prototype.download = function (parameters) {
+    var def = q.defer();
+    if(!parameters) {
+        return def.resolve(false);
+    }
     var url = parameters.url;
     var file = parameters.file;
     var subject = parameters.subject;
-    var def = q.defer();
 
-    console.log('Baixando legenda para %s'.green, subject);
+    console.log('Baixando legenda para %s.'.green, subject);
 
     request({
         url: url
@@ -61,17 +64,18 @@ LegTV.prototype.search = function (parameters) {
     var def = q.defer();
     var searchUrl = 'http://legendas.tv/util/carrega_legendas_busca/' + encodeURIComponent(subject);
 
-    console.log('Buscando legenda para %s'.green, subject);
+    console.log('Buscando legenda para %s.'.green, subject);
 
     request({
         url: searchUrl
     }, function (error, response, body) {
-        parameters.name = getEpisodeName(subject);
-        parameters.url = 'http://legendas.tv' + filterDownloadList(body, parameters.name);
-        if(!parameters.url) {
-            console.log('Legenda não encontrada para %s.'.red, subject);
-            return def.reject();
+        var name = getEpisodeName(subject);
+        var downloadUrl = filterDownloadList(body, name);
+        if (!downloadUrl) {
+            console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
+            return def.resolve(false);
         }
+        parameters.url = 'http://legendas.tv' + downloadUrl;
         return def.resolve(parameters);
     });
 
@@ -97,11 +101,14 @@ LegTV.prototype.login = function () {
             'Content-Type': 'application/x-www-form-urlencoded'
         }
     }, function (error, response) {
-        if (response.statusCode !== 302) {
-            console.log('Falha ao fazer login.'.red);
-            return def.reject();
+        if(error) {
+            return def.reject('Falha ao conectar-se ao legendas.tv.\nVerifique sua conexão a internet e tente novamente.');
         }
-        console.log('Autenticado com sucesso!'.green);
+        if (response.statusCode !== 302) {
+            // TODO parse body and check for credentials error message.
+            return def.reject('Falha ao fazer login.\nO site pode estar instável ou suas credenciais podem estar erradas. Verifique!');
+        }
+        console.log('Autenticado com sucesso ao legendas.tv!'.green);
 
         return def.resolve(true);
     });

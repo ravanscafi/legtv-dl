@@ -1,56 +1,47 @@
-var config = require(__dirname + '/../config');
-var utils = require(__dirname + '/utils');
-var legtv = require(__dirname + '/legtv').create(config.username, config.password, config.proxy);
-var q = require('q');
-var path = config.seriesPath;
+(function () {
+    'use strict';
+    var config = require(__dirname + '/../config');
+    var utils = require(__dirname + '/utils');
+    var legtv = require(__dirname + '/legtv').create(config.username, config.password, config.proxy);
+    var q = require('q');
+    var path = config.seriesPath;
 
-require('colors');
+    require('colors');
 
-function run() {
-    var def = q.defer();
+    console.log('\x1Bc'); // clear console
+    console.log(' _                           _            _          '.blue + '      _                     _                 _           '.green);
+    console.log('| | ___  __ _  ___ _ __   __| | __ _ ___ | |___   __ '.blue + '   __| | _____      ___ __ | | ___   __ _  __| | ___ _ __ '.green);
+    console.log('| |/ _ \\/ _` |/ _ \\ \'_ \\ / _` |/ _` / __|| __\\ \\ / / '.blue + '  / _` |/ _ \\ \\ /\\ / / \'_ \\| |/ _ \\ / _` |/ _` |/ _ \\ \'__|'.green);
+    console.log('| |  __/ (_| |  __/ | | | (_| | (_| \\__ \\| |_ \\ V /  '.blue + ' | (_| | (_) \\ V  V /| | | | | (_) | (_| | (_| |  __/ |   '.green);
+    console.log('|_|\\___|\\__, |\\___|_| |_|\\__,_|\\__,_|___(_)__| \\_/   '.blue + '  \\__,_|\\___/ \\_/\\_/ |_| |_|_|\\___/ \\__,_|\\__,_|\\___|_|   '.green);
+    console.log('        |___/                                        '.blue + '                                                          '.green);
+    console.log('                                                                                                 by Ravan Scafi\n'.blue);
 
-    console.log('Legendas.TV Downloader\nBy Ravan Scafi\n'.blue);
     utils.fileList(path)
         .then(function (response) {
-            var fileList = response.fileList;
-            var subjects = response.subjects;
-            var len = subjects.length;
+            var subjectList = response.subjectList;
+            var originalFiles = response.originalFiles;
+            var len = subjectList.length;
 
             if (!len) {
-                console.log('Nenhum episódio sem legenda.\nÓtimo!'.green);
-                return def.resolve(true);
+                console.log('Nenhum episódio sem legenda.\nÓtimo, não é mesmo!? 😉\n\n'.green);
+                return false;
             }
 
-            console.log('%d episódio%s sem legenda.'.yellow, len, len > 1 ? 's' : '');
+            console.log('%d episódio%s sem legenda. Deixa comigo! 😉'.yellow, len, len > 1 ? 's' : '');
             legtv.login()
                 .then(function () {
                     var queue = [];
 
-                    subjects.forEach(function (subject) {
+                    subjectList.forEach(function (subject) {
                         queue.push(function () {
-                            return fetchSubtitle(path, subject, fileList);
+                            return utils.fetchSubtitle(legtv, path, subject, subjectList, originalFiles);
                         });
                     });
 
-                    func = queue.pop();
+                    var func = queue.pop();
                     queue.reduce(q.when, func());
-                });
+                })
+                .fail(utils.errorHandler);
         });
-
-    return def.promise;
-}
-
-function fetchSubtitle(path, subject, fileList) {
-    var tmpFile = path + '/tmp/' + subject + '.rar';
-    var def = q.defer();
-
-    legtv.search({subject: subject, file: tmpFile, fileList: fileList})
-        .then(legtv.download)
-        .then(utils.extract)
-        .then(def.resolve)
-        .done();
-
-    return def.promise;
-}
-
-run();
+})();

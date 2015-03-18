@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a86c43-27f0-40f3-92f2-976693cf800d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/legtv.js" afterPath="$PROJECT_DIR$/src/legtv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils.js" afterPath="$PROJECT_DIR$/src/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/utils.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73221755" vertical-offset="3895" max-vertical-offset="5356">
-              <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.4138929" vertical-offset="0" max-vertical-offset="691">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -48,8 +51,6 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/legtv.js" />
         <option value="$PROJECT_DIR$/utils.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/config.sample.js" />
         <option value="$PROJECT_DIR$/src/legtvdl.js" />
         <option value="$PROJECT_DIR$/rar.js" />
@@ -59,9 +60,11 @@
         <option value="$PROJECT_DIR$/src/legtv2.js" />
         <option value="$PROJECT_DIR$/src/indexv2.js" />
         <option value="$PROJECT_DIR$/teste2.js" />
-        <option value="$PROJECT_DIR$/src/legtv.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/src/utils.js" />
+        <option value="$PROJECT_DIR$/src/legtv.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -74,8 +77,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1364" />
-    <option name="height" value="739" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -155,34 +158,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="legtv-dl">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="legtv-dl">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,12 +192,40 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="legtv-dl">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="legtv-dl">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -258,10 +261,14 @@
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -269,10 +276,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -328,17 +331,37 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1364" height="739" extended-state="6" />
+    <frame x="0" y="23" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31849793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -349,8 +372,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -374,18 +397,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3895" max-vertical-offset="5356">
+          <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
+          <folding>
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Log errors to console. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Handle the process of fetching a subtitle. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
           <folding>
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -394,7 +465,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="275">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
+          <folding>
+            <marker date="1426655696000" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: 'r0c1nh4'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -402,7 +475,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1905">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Log errors to console. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Handle the process of fetching a subtitle. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -418,7 +533,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Log errors to console. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Handle the process of fetching a subtitle. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,90 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5267728" vertical-offset="0" max-vertical-offset="691">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <marker date="1426305746000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;legtv-dl&quot;...}" />
-            <marker date="1426305746000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1426305746000" expanded="true" signature="-1:-1" placeholder="{&quot;request&quot;: &quot;~2.51.0&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node-globals-stub.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33286119" vertical-offset="7435" max-vertical-offset="9542">
           <caret line="295" column="4" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
-          <folding>
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Loads a module. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Use the internal &lt;i&gt;&lt;code&gt;require()&lt;/code&gt;&lt;/i&gt; machinery to look up the location of a module, ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Modules are cached in this object when they are required.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Module object of a file that is run directly from Node. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Instruct &lt;i&gt;&lt;code&gt;require&lt;/code&gt;&lt;/i&gt; on how to handle certain file extensions. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An object which is shared between all instances of the current module and made accessible ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The process object. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{&quot;execPath&quot;: ''...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Adds the specified listener to receive events of the given type. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A writable stream to stdout. &lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A writable stream to stderr. &lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A Readable Stream for stdin.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An array containing the command line arguments.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** This is the absolute pathname of the executable that started the process. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** This causes node to emit an abort. This will cause node to exit and generate a core file. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Changes the current working directory of the process or throws an exception if that fails. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Returns the current working directory of the process. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An object containing the user environment. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Ends the process with the specified &lt;i&gt;&lt;code&gt;code&lt;/code&gt;&lt;/i&gt;. If omitted, exit uses the 'success' code 0. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Gets the group identity of the process.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Sets the group identity of the process.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Gets the user identity of the process.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Sets the user identity of the process.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A compiled-in property that exposes &lt;i&gt;&lt;code&gt;NODE_VERSION&lt;/code&gt;&lt;/i&gt;. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** An Object containing the JavaScript representation of the configure options that were used to compile ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A compiled-in property that exposes &lt;i&gt;&lt;code&gt;NODE_PREFIX&lt;/code&gt;&lt;/i&gt;. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Send a signal to a process.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The PID of the process. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Getter/setter to set what is displayed in 'ps'. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** What processor architecture you're running on: 'arm', 'ia32', or 'x64'. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** What platform you're running on. 'linux2', 'darwin', etc. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Returns an object describing the memory usage of the Node process measured in bytes. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** On the next loop around the event loop call this callback.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Sets or reads the process's file mode creation mask.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** @returns {Number} Number of seconds Node has been running. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Returns the current high-resolution real time in a [seconds, nanoseconds] tuple Array. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** @returns {Object} stdin of the process ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The filename of the code being executed.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The name of the directory that the currently executing script resides in. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** A reference to the current module.&lt;p/&gt; ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{&quot;id&quot;: '{module identifier}'...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The &lt;i&gt;&lt;code&gt;exports&lt;/code&gt;&lt;/i&gt; object is created by the Module system. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Provides a way to load a module as if &lt;i&gt;&lt;code&gt;require()&lt;/code&gt;&lt;/i&gt; was called from the original module. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The identifier for the module. Typically this is the fully resolved filename. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The fully resolved filename to the module. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** Whether or not the module is done loading, or is in the process of loading. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The module that required this one. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The module objects required by this one. ...*/" />
-            <marker date="1421663736000" expanded="true" signature="-1:-1" placeholder="/** The global namespace object.&lt;p/&gt; ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,79 +598,284 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rarfile/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60202605" vertical-offset="0" max-vertical-offset="1638">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
-            <marker date="1426306044000" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: ''...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;rarfile&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;Domingo Ernesto Savoretti&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;node&quot;: &quot;~0.8.x&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;prepublish&quot;: &quot;rm -rf lib &amp;&amp; coffee --output lib/ src/&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;node-simple-router&quot;: &quot;*&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;js-base64&quot;: &quot;~2.1.2&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;src&quot;: &quot;src&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;https://github.com/sandy98/node-rarfile/issues&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;esavoretti&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;esavoretti&quot;...}" />
+            <marker date="1424221492000" expanded="true" signature="-1:-1" placeholder="{&quot;shasum&quot;: &quot;db3b0f6e7ccbe64d203e2bd431f3b6b1ae5ff42c&quot;...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rarfile/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8497791" vertical-offset="8432" max-vertical-offset="10556">
+          <caret line="276" column="21" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="21" />
+          <folding>
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{&quot;encoding&quot;: &quot;utf8&quot;...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{&quot;encoding&quot;: 'binary'...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{&quot;end&quot;: true...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414473087000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="719">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="717">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.072322674" vertical-offset="0" max-vertical-offset="719">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
           <folding>
-            <marker date="1426306044000" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: 'r0c1nh4'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/legtv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3210225" vertical-offset="3042" max-vertical-offset="4134">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Classe LegTV. ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'GET'...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{&quot;Host&quot;: 'legendas.tv'...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Download subtitle URL. ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Search for given subject ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Perform login at Legenda ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'POST'...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{&quot;Content-Type&quot;: 'application/x-www-form-urlencoded'...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Parse ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** Replace spaces with dots for search. ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="/** @param username ...*/" />
-            <marker date="1426397277000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655696000" expanded="true" signature="-1:-1" placeholder="{&quot;username&quot;: 'r0c1nh4'...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32635984" vertical-offset="78" max-vertical-offset="1586">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.55807364" vertical-offset="646" max-vertical-offset="1352">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1426397350000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426655650000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73221755" vertical-offset="3895" max-vertical-offset="5356">
-          <caret line="170" column="7" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.35835695" vertical-offset="5441" max-vertical-offset="6474">
+          <caret line="219" column="30" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="30" />
+          <folding>
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** List tv shows and subtitles from seriesPath. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Extract the given .rar file to target folder. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the best file for target name. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Remove extension from files to see if their names matches (show vs subtitle) ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Naive attempt to parse tv show names from file list. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Get a file list, remove files that has a matching srt, then attempt to identify tv shows from files. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Find the target folder where the tv show file is, so that we can move the subtitle there. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: ''...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Log errors to console. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="/** Handle the process of fetching a subtitle. ...*/" />
+            <marker date="1426656563000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/legtv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8002833" vertical-offset="2399" max-vertical-offset="4316">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** Classe LegTV. ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'GET'...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{&quot;Host&quot;: 'legendas.tv'...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** Download subtitle URL. ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** Search for given subject ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** Perform login at Legenda ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'POST'...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{&quot;Content-Type&quot;: 'application/x-www-form-urlencoded'...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** Parse ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** Replace spaces with dots for search. ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="/** @param username ...*/" />
+            <marker date="1426656830000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4138929" vertical-offset="0" max-vertical-offset="691">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>
