@@ -228,16 +228,28 @@ Utils.errorHandler = function (error) {
  * @param originalFiles
  * @returns {Deferred.promise}
  */
-Utils.fetchSubtitle = function (legtv, path, subject, subjectList, originalFiles) {
-    var def = q.defer();
-    var tmpFile = path + '/tmp/' + subject + '.rar';
+ Utils.fetchSubtitle = function (legtv, path, subject, subjectList, originalFiles) {
+     var def = q.defer();
+     var tmpPath = path + '/tmp/';
 
-    legtv.search({subject: subject, file: tmpFile, subjectList: subjectList, originalFiles: originalFiles})
-        .then(legtv.download)
-        .then(Utils.extract)
-        .then(def.resolve)
-        .fail(Utils.errorHandler)
-        .done();
+     fs.stat(tmpPath, function (error, stat){
+         if (error) {
+             try {
+                 fs.mkdirSync(tmpPath, 0755)
+             } catch (e) {
+                 console.log(e.message())
+             }
+         }
+     })
 
-    return def.promise;
-};
+     var tmpFile = tmpPath + subject + '.rar';
+
+     legtv.search({subject: subject, file: tmpFile, subjectList: subjectList, originalFiles: originalFiles})
+         .then(legtv.download)
+         .then(Utils.extract)
+         .then(def.resolve)
+         .fail(Utils.errorHandler)
+         .done();
+
+     return def.promise;
+ };
