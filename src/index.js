@@ -4,7 +4,7 @@
     var utils = require(__dirname + '/utils');
     var legtv = require(__dirname + '/legtv').create(config.username, config.password);
     var q = require('q');
-    var path = config.seriesPath;
+    var paths = config.seriesPaths;    
 
     require('colors');
 
@@ -17,31 +17,37 @@
     console.log('        |___/                                        '.blue + '                                                          '.green);
     console.log('                                                                                                 by Ravan Scafi\n'.blue);
 
-    utils.fileList(path)
-        .then(function (response) {
-            var subjectList = response.subjectList;
-            var originalFiles = response.originalFiles;
-            var len = subjectList.length;
+    paths
+    .forEach(trataCaminho);
 
-            if (!len) {
-                console.log('Nenhum episódio sem legenda.\nÓtimo, não é mesmo!? 😉\n\n'.green);
-                return false;
-            }
+    function trataCaminho(path, index) {
+        utils.fileList(path)
+            .then(function (response) {
+                var subjectList = response.subjectList;
+                var originalFiles = response.originalFiles;
+                var len = subjectList.length;
 
-            console.log('%d episódio%s sem legenda. Deixa comigo! 😉'.yellow, len, len > 1 ? 's' : '');
-            legtv.login()
-                .then(function () {
-                    var queue = [];
+                if (!len) {
+                    console.log('Nenhum episódio sem legenda em %s.\nÓtimo, não é mesmo!? 😉\n\n'.green, path);
+                    return false;
+                }
 
-                    subjectList.forEach(function (subject) {
-                        queue.push(function () {
-                            return utils.fetchSubtitle(legtv, path, subject, subjectList, originalFiles);
+                console.log('%d episódio%s sem legenda em %s. Deixa comigo! 😉'.yellow, len, len > 1 ? 's' : '', path);
+                legtv.login()
+                    .then(function () {
+                        var queue = [];
+
+                        subjectList.forEach(function (subject) {
+                            queue.push(function () {
+                                return utils.fetchSubtitle(legtv, path, subject, subjectList, originalFiles);
+                            });
                         });
-                    });
 
-                    var func = queue.pop();
-                    queue.reduce(q.when, func());
-                })
-                .fail(utils.errorHandler);
-        });
+                        var func = queue.pop();
+                        queue.reduce(q.when, func());
+                    })
+                    .fail(utils.errorHandler);
+            });
+    }    
+    
 })();

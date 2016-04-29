@@ -70,7 +70,7 @@ LegTV.prototype.search = function (parameters) {
         var name = getEpisodeName(subject);
         var downloadUrl = filterDownloadList(body, name);
         if (!downloadUrl) {
-            console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
+            console.log('Nenhuma legenda encontrada para %s!'.yellow, subject);
             return def.resolve(false);
         }
         parameters.url = 'http://legendas.tv' + downloadUrl;

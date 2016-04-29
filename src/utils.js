@@ -49,12 +49,12 @@ Utils.extract = function (parameters) {
 
         var file = Utils.bestMatch(files, fileName, path);
 
-        if (!file) {
-            console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
+        if (!file) {            
+            console.log('Nenhuma legenda encontrada para %s!'.yellow, subject);
             return;
         }
 
-        var outfile = fs.createWriteStream(path + '/' + fileName + '.srt');
+        var outfile = fs.createWriteStream(path + '/' + fileName + '.pt.srt');
         rf.pipe(file, outfile);
     });
 };
