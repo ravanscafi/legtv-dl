@@ -1,6 +1,6 @@
 {
   "name": "legtv-dl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Download all your missing subtitles for tv shows using Legendas.tv as source.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
