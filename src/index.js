@@ -4,7 +4,7 @@
     var utils = require(__dirname + '/utils');
     var legtv = require(__dirname + '/legtv').create(config.username, config.password);
     var q = require('q');
-    var paths = config.seriesPaths;    
+    var paths = config.seriesPaths;
 
     require('colors');
 
@@ -18,9 +18,9 @@
     console.log('                                                                                                 by Ravan Scafi\n'.blue);
 
     paths
-    .forEach(trataCaminho);
+        .forEach(baixaLegendasPasta);
 
-    function trataCaminho(path, index) {
+    function baixaLegendasPasta(path) {
         utils.fileList(path)
             .then(function (response) {
                 var subjectList = response.subjectList;
@@ -48,6 +48,6 @@
                     })
                     .fail(utils.errorHandler);
             });
-    }    
-    
+    }
+
 })();

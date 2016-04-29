@@ -8,7 +8,7 @@ require('colors');
 /**
  * List tv shows and subtitles from seriesPath.
  * @param path
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 Utils.fileList = function (path) {
     var def = q.defer();
@@ -49,7 +49,7 @@ Utils.extract = function (parameters) {
 
         var file = Utils.bestMatch(files, fileName, path);
 
-        if (!file) {            
+        if (!file) {
             console.log('Nenhuma legenda encontrada para %s!'.yellow, subject);
             return;
         }
@@ -160,7 +160,7 @@ Utils.identifyTvShows = function (files) {
 
     return {
         originalFiles: originalFiles,
-        subjectList:   subjectList
+        subjectList: subjectList
     };
 };
 
@@ -198,7 +198,7 @@ Utils.targetFolder = function (subject, list, originalFiles) {
     var pos;
     var response = {
         path: '',
-        name: '',
+        name: ''
     };
 
     if ((pos = list.indexOf(subject)) > -1) {
@@ -226,30 +226,31 @@ Utils.errorHandler = function (error) {
  * @param subject
  * @param subjectList
  * @param originalFiles
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
- Utils.fetchSubtitle = function (legtv, path, subject, subjectList, originalFiles) {
-     var def = q.defer();
-     var tmpPath = path + '/tmp/';
+Utils.fetchSubtitle = function (legtv, path, subject, subjectList, originalFiles) {
+    var def = q.defer();
+    var tmpPath = path + '/tmp/';
 
-     fs.stat(tmpPath, function (error, stat){
-         if (error) {
-             try {
-                 fs.mkdirSync(tmpPath, 0755)
-             } catch (e) {
-                 console.log(e.message())
-             }
-         }
-     })
+    fs.stat(tmpPath, function (error) {
+        if (error) {
+            try {
+                //noinspection OctalIntegerJS
+                fs.mkdirSync(tmpPath, 0755)
+            } catch (e) {
+                console.log(e.message())
+            }
+        }
+    });
 
-     var tmpFile = tmpPath + subject + '.rar';
+    var tmpFile = tmpPath + subject + '.rar';
 
-     legtv.search({subject: subject, file: tmpFile, subjectList: subjectList, originalFiles: originalFiles})
-         .then(legtv.download)
-         .then(Utils.extract)
-         .then(def.resolve)
-         .fail(Utils.errorHandler)
-         .done();
+    legtv.search({subject: subject, file: tmpFile, subjectList: subjectList, originalFiles: originalFiles})
+        .then(legtv.download)
+        .then(Utils.extract)
+        .then(def.resolve)
+        .fail(Utils.errorHandler)
+        .done();
 
-     return def.promise;
- };
+    return def.promise;
+};

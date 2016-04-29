@@ -17,24 +17,24 @@ function LegTV(username, password) {
 }
 
 request = request.defaults({
-    method:  'GET',
-    path:    'http://legendas.tv/',
+    method: 'GET',
+    path: 'http://legendas.tv/',
     headers: {
         'Host': 'legendas.tv'
     },
-    jar:     jar,
-    proxy:   this.proxy
+    jar: jar,
+    proxy: this.proxy
 });
 
 /**
  * Download subtitle URL.
  *
  * @param parameters
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 LegTV.prototype.download = function (parameters) {
     var def = q.defer();
-    if(!parameters) {
+    if (!parameters) {
         return def.resolve(false);
     }
     var url = parameters.url;
@@ -55,7 +55,7 @@ LegTV.prototype.download = function (parameters) {
 /**
  * Search for given subject
  * @param parameters
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 LegTV.prototype.search = function (parameters) {
     var subject = parameters.subject;
@@ -82,7 +82,7 @@ LegTV.prototype.search = function (parameters) {
 
 /**
  * Perform login at Legenda
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 LegTV.prototype.login = function () {
     var def = q.defer();
@@ -92,14 +92,14 @@ LegTV.prototype.login = function () {
         '&' + encodeURIComponent('data[lembrar]') + '=on';
 
     request({
-        method:  'POST',
-        url:     'http://legendas.tv/login',
-        body:    body,
+        method: 'POST',
+        url: 'http://legendas.tv/login',
+        body: body,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         }
     }, function (error, response) {
-        if(error) {
+        if (error) {
             return def.reject('Falha ao conectar-se ao legendas.tv.\nVerifique sua conexão a internet e tente novamente.');
         }
         if (response.statusCode !== 302) {
