@@ -4,7 +4,8 @@
     var utils = require(__dirname + '/utils');
     var legtv = require(__dirname + '/legtv').create(config.username, config.password);
     var q = require('q');
-    var paths = config.seriesPaths;
+    var seriesPaths = config.seriesPaths;
+    var async = require('async');
 
     require('colors');
 
@@ -17,34 +18,28 @@
     console.log('        |___/                                        '.blue + '                                                          '.green);
     console.log('                                                                                                 by Ravan Scafi\n'.blue);
 
-    paths
-        .forEach(baixaLegendasPasta);
+    seriesPaths.forEach(processPath);
 
-    function baixaLegendasPasta(path) {
-        utils.fileList(path)
+    function processPath(path) {
+        utils
+            .fileList(path)
             .then(function (response) {
                 var subjectList = response.subjectList;
                 var originalFiles = response.originalFiles;
-                var len = subjectList.length;
+                var subjectListLength = subjectList.length;
 
-                if (!len) {
+                if (!subjectListLength) {
                     console.log('Nenhum episódio sem legenda em %s.\nÓtimo, não é mesmo!? 😉\n\n'.green, path);
                     return false;
                 }
 
-                console.log('%d episódio%s sem legenda em %s. Deixa comigo! 😉'.yellow, len, len > 1 ? 's' : '', path);
+                console.log('%d episódio%s sem legenda em %s. Deixa comigo! 😉'.yellow, subjectListLength, subjectListLength > 1 ? 's' : '', path);
                 legtv.login()
                     .then(function () {
-                        var queue = [];
-
-                        subjectList.forEach(function (subject) {
-                            queue.push(function () {
-                                return utils.fetchSubtitle(legtv, path, subject, subjectList, originalFiles);
+                        subjectList
+                            .forEach(function (subject) {
+                                utils.fetchSubtitle(legtv, path, subject, subjectList, originalFiles);
                             });
-                        });
-
-                        var func = queue.pop();
-                        queue.reduce(q.when, func());
                     })
                     .fail(utils.errorHandler);
             });

@@ -62,8 +62,6 @@ LegTV.prototype.search = function (parameters) {
     var def = q.defer();
     var searchUrl = 'http://legendas.tv/util/carrega_legendas_busca/' + encodeURIComponent(subject);
 
-    console.log('Buscando legenda para %s.'.green, subject);
-
     request({
         url: searchUrl
     }, function (error, response, body) {
