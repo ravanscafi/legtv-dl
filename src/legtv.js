@@ -17,24 +17,24 @@ function LegTV(username, password) {
 }
 
 request = request.defaults({
-    method:  'GET',
-    path:    'http://legendas.tv/',
+    method: 'GET',
+    path: 'http://legendas.tv/',
     headers: {
         'Host': 'legendas.tv'
     },
-    jar:     jar,
-    proxy:   this.proxy
+    jar: jar,
+    proxy: this.proxy
 });
 
 /**
  * Download subtitle URL.
  *
  * @param parameters
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 LegTV.prototype.download = function (parameters) {
     var def = q.defer();
-    if(!parameters) {
+    if (!parameters) {
         return def.resolve(false);
     }
     var url = parameters.url;
@@ -55,14 +55,12 @@ LegTV.prototype.download = function (parameters) {
 /**
  * Search for given subject
  * @param parameters
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 LegTV.prototype.search = function (parameters) {
     var subject = parameters.subject;
     var def = q.defer();
     var searchUrl = 'http://legendas.tv/util/carrega_legendas_busca/' + encodeURIComponent(subject);
-
-    console.log('Buscando legenda para %s.'.green, subject);
 
     request({
         url: searchUrl
@@ -70,7 +68,7 @@ LegTV.prototype.search = function (parameters) {
         var name = getEpisodeName(subject);
         var downloadUrl = filterDownloadList(body, name);
         if (!downloadUrl) {
-            console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
+            console.log('Nenhuma legenda encontrada para %s!'.yellow, subject);
             return def.resolve(false);
         }
         parameters.url = 'http://legendas.tv' + downloadUrl;
@@ -82,7 +80,7 @@ LegTV.prototype.search = function (parameters) {
 
 /**
  * Perform login at Legenda
- * @returns {Deferred.promise}
+ * @returns {promise}
  */
 LegTV.prototype.login = function () {
     var def = q.defer();
@@ -92,14 +90,14 @@ LegTV.prototype.login = function () {
         '&' + encodeURIComponent('data[lembrar]') + '=on';
 
     request({
-        method:  'POST',
-        url:     'http://legendas.tv/login',
-        body:    body,
+        method: 'POST',
+        url: 'http://legendas.tv/login',
+        body: body,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         }
     }, function (error, response) {
-        if(error) {
+        if (error) {
             return def.reject('Falha ao conectar-se ao legendas.tv.\nVerifique sua conexão a internet e tente novamente.');
         }
         if (response.statusCode !== 302) {

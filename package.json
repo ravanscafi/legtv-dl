@@ -1,6 +1,6 @@
 {
   "name": "legtv-dl",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Download all your missing subtitles for tv shows using Legendas.tv as source.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,7 @@
     "rarfile": "~0.2.3-1",
     "glob": "~5.0.3",
     "q": "~1.1.2",
-    "colors": "~1.0.3"
+    "colors": "~1.0.3",
+    "async": "latest"
   }
 }

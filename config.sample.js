@@ -1,5 +1,9 @@
 module.exports = {
     username:   '',
     password:   '',
-    seriesPath: '~/Downloads/_Séries'
+    seriesPaths: [
+        '~/Downloads/_Séries',
+        'D:/MEDIA/TV SHOWS',
+        'D:/TORRENTS/Completed'
+    ]
 };
