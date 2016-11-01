@@ -27,7 +27,10 @@ No OS X, você pode utilizar [Homebrew](http://brew.sh/) e instalar com o comand
 brew install unrar
 ```
 
-No Windows, você provavalmente precisa baixar [daqui](http://www.rarlab.com/rar_add.htm), instalar/extrair ou sei lá, e colocar o caminho no seu path.
+No Windows, você provavalmente precisa baixar [daqui](http://www.rarlab.com/download.htm), instalar, e colocar o caminho no seu path, que pode ser acesso através das configurações:
+```
+Windows+Pause > Alterar configurações > aba Avançado > Variáveis de ambiente
+```
 
 # Instalação
 
