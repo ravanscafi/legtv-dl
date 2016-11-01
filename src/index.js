@@ -8,7 +8,8 @@
 
     require('colors');
 
-    console.log('\x1Bc'); // clear console
+    //clear console
+    console.log('\x1Bc');
     console.log(' _                           _            _          '.blue + '      _                     _                 _           '.green);
     console.log('| | ___  __ _  ___ _ __   __| | __ _ ___ | |___   __ '.blue + '   __| | _____      ___ __ | | ___   __ _  __| | ___ _ __ '.green);
     console.log('| |/ _ \\/ _` |/ _ \\ \'_ \\ / _` |/ _` / __|| __\\ \\ / / '.blue + '  / _` |/ _ \\ \\ /\\ / / \'_ \\| |/ _ \\ / _` |/ _` |/ _ \\ \'__|'.green);
