@@ -43,11 +43,16 @@ LegTV.prototype.download = function (parameters) {
 
     console.log('Baixando legenda para %s.'.green, subject);
 
-    request({
+    const req = request({
         url: url
-    }).pipe(fs.createWriteStream(file).on('finish', function () {
-        return def.resolve(parameters);
-    }));
+    }).on('response', function(response) {
+        // Detect file extension
+        let urlPath = response.request.path;
+        parameters.file = file = `${file}.${urlPath.split('.').pop()}`;
+        req.pipe(fs.createWriteStream(file).on('finish', function () {
+            return def.resolve(parameters);
+        }))
+    });
 
     return def.promise;
 };
