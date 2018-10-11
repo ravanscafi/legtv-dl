@@ -1,5 +1,6 @@
 var fs = require('fs');
 var rarfile = require('rarfile'); //TODO change this package to another one that we can use with promises
+var zipfile = require('unzipper');
 var glob = require('glob');
 var q = require('q');
 var Utils = module.exports;
@@ -33,30 +34,57 @@ Utils.extract = function (parameters) {
     var originalFiles = parameters.originalFiles;
     var subjectList = parameters.subjectList;
     var subject = parameters.subject;
+    var extension = file.split('.').pop();
 
     console.log('Extraindo %s.'.green, parameters.subject);
 
-    new rarfile.RarFile(file).on('ready', function (rf) {
-        var files = rf.names;
-        var response = Utils.targetFolder(subject, subjectList, originalFiles);
-        var path = response.path;
-        var fileName = response.name;
+    var response = Utils.targetFolder(subject, subjectList, originalFiles);
+    var path = response.path;
+    var fileName = response.name;
 
-        if (!path || !fileName) {
-            console.log('Erro ao linkar legenda de %s! Entre em contato com o desenvolvedor.'.yellow, subject);
-            return;
-        }
+    if (!path || !fileName) {
+        console.log('Erro ao linkar legenda de %s! Entre em contato com o desenvolvedor.'.yellow, subject);
+        return;
+    }
 
-        var file = Utils.bestMatch(files, fileName, path);
+    switch(extension){
 
-        if (!file) {
-            console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
-            return;
-        }
+        case 'rar':
+            new rarfile.RarFile(file).on('ready', function (rf) {
+                var files = rf.names;
+                var file = Utils.bestMatch(files, fileName, path);
 
-        var outfile = fs.createWriteStream(path + '/' + fileName + '.srt');
-        rf.pipe(file, outfile);
-    });
+                if (!file) {
+                    console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
+                    return;
+                }
+
+                var outfile = fs.createWriteStream(path + '/' + fileName + '.srt');
+                rf.pipe(file, outfile);
+            });
+            break;
+
+        case 'zip':
+                zipfile.Open.file(file)
+                .then((rf) => {
+                    var files = rf.files.map((ln) => ln.path);
+                    var file = Utils.bestMatch(files, fileName, path);
+                    // Search index from file...
+                    var ix = files.indexOf(file);
+                    if (!file) {
+                        console.log('Nenhuma legenda encontrada para %s!\nTente novamente mais tarde para ver se foi publicada ou verifique o nome do arquivo.'.yellow, subject);
+                        return;
+                    }
+                    var outfile = fs.createWriteStream(path + '/' + fileName + '.srt');
+                    rf.files[ix].stream().pipe(outfile);
+                }).catch((e) =>{
+                    console.log('Erro ao linkar legenda de %s! Entre em contato com o desenvolvedor.'.yellow, subject);
+                });
+            break;
+
+        default:
+            console.log('Legenda de %s em formato nao suportado! Entre em contato com o desenvolvedor.'.yellow, subject);
+    }
 };
 
 /**
@@ -137,14 +165,18 @@ Utils.identifyTvShows = function (files) {
             .replace(/(\d{2})(\d{2})(\d{2})/, 's$1e$2e$3') // 071213 => s07e12e13
             .replace(/(\d)(\d{2})(\d{2})/, 's$1e$2e$3') // 71213 => s07e12e13
             .replace(/(\d{2})(\d{2})/, 's$1e$2') // 1012 => s10e12
-            .replace(/(\d)(\d{2})/, 's0$1e$2') // 309 => s03e09
             .replace(/s(\d)(e\d{2})/i, 's0$1$2') // s4e11 => s04e11
             .replace(/(s\d{2}(e\d{2}){1,2}).*$/i, '$1') // trim depois do episodio
             .replace(/\s{2,}/g, ' ') //remove varios espaços
             .replace(/^(?!.*s\d{2}e\d{2}.*)$/, ''); //remove falsos positivos (ou filmes - suporte no futuro)
 
-        if (!/s\d{2}(e\d{2}){1,2}/i.test(file)) return false; //se não bater com o padrão de numeração de episódios
-
+        if (!/s\d{2}(e\d{2}){1,2}/i.test(file)) {
+            file.replace(/(\d)(\d{2})/, 's0$1e$2') // 309 => s03e09 (somente se já não tiver episodio)
+            // checa novamente (ugly...)
+            if (!/s\d{2}(e\d{2}){1,2}/i.test(file)) {
+                return false; //se não bater com o padrão de numeração de episódios
+            }
+        }
         return file.toLowerCase();
     });
 
@@ -242,7 +274,7 @@ Utils.errorHandler = function (error) {
          }
      })
 
-     var tmpFile = tmpPath + subject + '.rar';
+     var tmpFile = tmpPath + subject;
 
      legtv.search({subject: subject, file: tmpFile, subjectList: subjectList, originalFiles: originalFiles})
          .then(legtv.download)
